@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: #542CC0;
+}
+
+.testimonialImageStyle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid #F4F7FD;
+}
+
+.testimonialImageStyle img {
+    height: 130%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.circ {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    background-image: url('../src/assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
